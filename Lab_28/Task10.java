@@ -1,10 +1,16 @@
 package com.company;
 import java.lang.*;
 public class Main {
- public static void main(String[] args) {
-StringBuffer sb = new StringBuffer("abc");
-String str = sb.append("e").insert(4,
-             "f").insert(3,"d").toString();
-System.out.println(str);
-} 
+ ublic class Test {
+  public static void main(String[] args) {
+    Test t = new Test();
+    StringBuffer sb = new StringBuffer("aaa");
+    System.out.println("Before = " + sb);
+    t.doTest(sb);
+    System.out.println("After = " + sb);
+  }
+  void doTest(StringBuffer theSb){
+    theSb.append("-bbb");
+  }
+}
 }
