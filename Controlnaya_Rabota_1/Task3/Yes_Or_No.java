@@ -5,7 +5,7 @@ import java.util.*;
 class Main {
 
     public static void main(String[] args) {
-        System.out.println("Введите номер месяца от 1 до 12");
+        System.out.println("Введите три номера!");
         Scanner scan = new Scanner(System.in);
         int num1 = scan.nextInt();
         int num2 = scan.nextInt();
